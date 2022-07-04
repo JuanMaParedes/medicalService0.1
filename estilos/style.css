@@ -1,0 +1,134 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+.container-fluid img{
+    width: 14rem;
+
+}
+
+
+
+.sesion button{
+    color:  rgba(0,154,203,255);
+    border-color:  #0307e6;
+    
+    
+}
+#btnRegistro a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+#btnIniciar a{
+    text-decoration: none;
+    color: #009ccbf1;
+}
+#btnIniciar a:hover{
+    color: aliceblue;
+}
+#btnRegistro{
+    background-color: rgba(0,154,203,255);
+    color: aliceblue;
+}
+#btnRegistro:hover{
+    background-color: #009ccbc2;
+}
+
+#grillaTop{
+    padding-top: 1rem;
+}
+.grillaTop h3{
+    padding-bottom: 1rem;
+}
+
+h3{
+   /*  background-color: #009acb; */
+    border-radius: 15px;
+    padding: .5rem;
+    color: #4e4e4e;
+}
+.accordion-item .accordion-button:hover{
+    background-color: #009ccbc2;
+    
+}
+
+.imgNosotros{
+    width: 100%;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+.h3Nosotros{
+    padding-top: 3rem;
+}
+.container h4{
+    color: #4e4e4e;
+
+}
+
+.dato{
+    margin-top: 1rem;
+    background-color: hsla(175, 48%, 49%, 0.31) ;
+    border-radius: 15px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-left: -1rem;
+    width: 100%;    
+}
+.linkRedes a{
+    position: relative;
+    padding: 2rem;
+    bottom: 3rem ;
+}
+#foot{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: #41b9af4f;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+   
+}
+.apartado a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: .5rem;
+    
+  
+
+}
+
+label{
+    padding-top: 1rem;
+}
+.terminos input{
+    margin-top: 1rem;
+   
+}
+.terminos label{
+    padding-left: 1rem;
+}
+.derechosR{
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.derechosR:hover{
+    color: #0307e6;
+}

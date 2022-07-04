@@ -1,0 +1,20 @@
+.sesion{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sesion h5{
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+#imgDatos{
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid coral;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    margin-top: -.5rem;
+}
+#btnEditar{
+    margin-bottom: .5rem;
+}

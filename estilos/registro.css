@@ -1,0 +1,86 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+
+.container-fluid img{
+    width: 14rem;
+
+}
+
+.sesion button{
+    color:  rgba(0,154,203,255);
+    border-color:  #0307e6;
+    
+}
+#btnRegistro a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+#btnRegistro{
+    background-color: rgba(0,154,203,255);
+    color: aliceblue;
+}
+#btnRegistro:hover{
+    background-color: #009ccbc2;
+}
+main{
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    padding: 3rem;
+    background: url("/img/registro/registrarse.jpg") no-repeat left top; 
+    background-size: cover;
+}
+main img{
+    position: fixed;
+    z-index: -1;
+}
+main h3{
+    padding-bottom: 1rem;
+}
+
+#colRegistro{
+    background-color: rgb(37, 150, 230);
+    padding: 2.5rem;
+    
+    border-radius: 15px;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+   
+}
+#foot{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: #41b9af4f;
+}
+.apartado a{
+    text-decoration: none;
+    color: black;
+    padding-bottom: .5rem;
+}
+.derechosR{
+    margin-top: 2rem;
+    font-size: 12px;
+}
+.derechosR:hover{
+    color: #0307e6;
+}
