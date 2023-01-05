@@ -26,6 +26,7 @@ let newUserObra = document.getElementById("newUserObra");
 let newUserURL = document.getElementById("newUserURL");
 let newUserEmail = document.getElementById("newUserEmail");
 let newUserPass = document.getElementById("newUserPass");
+
 let buttonSave= document.getElementById("buttonSave");
 //Variables para eliminar usuario
 let buttonDelate= document.getElementById("buttonDelate");
@@ -105,6 +106,28 @@ function botonEditar(id,elementoPadre){
     buttonEdit.setAttribute("data-bs-target","#modalEditar");
     buttonEdit.setAttribute("id","btnEditar");
     buttonEdit.innerHTML = "Editar mis datos";
+    let usuario = getUserById(id);
+    usuario.then((response)=>{
+        direccion= response.direccion;
+        ciudad= response.ciudad;
+        provincia=response.provincia;
+        email= response.email;
+        obraSocial= response.obraSocial;
+        avatar=response.avatar;
+        passwoed= response.passwoed 
+
+        newUserAddress.value= direccion;
+        newUserCity.value= ciudad;
+        newUserState.value=provincia;
+        newUserEmail.value= email;
+        newUserObra.value= obraSocial;
+        newUserPass.value= passwoed;
+        newUserURL.value= avatar;
+
+    }); 
+
+
+
     buttonSave.addEventListener("click", () => {
     editUser(id);
   }); 

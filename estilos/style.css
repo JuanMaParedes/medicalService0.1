@@ -48,6 +48,14 @@ body{
     background-color: #009ccbc2;
 }
 
+.noveimg{
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
 #grillaTop{
     padding-top: 1rem;
 }
